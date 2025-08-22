@@ -2,7 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mygray: "#0d0e0f",
+        myblack: "#000305", // your custom background color
+      },
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+        sixcaps: ['"Six Caps"', "sans-serif"],
+      },
+      backgroundImage: {
+        "hero-img": "url('./assets/images/g1.png')",
+      },
+    },
   },
   plugins: [],
 };
+// 0d0e0f

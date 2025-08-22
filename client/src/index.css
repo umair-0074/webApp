@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles.css or inside your globals */
+@media (max-width: 768px) {
+    .no-clip {
+        clip-path: none !important;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
