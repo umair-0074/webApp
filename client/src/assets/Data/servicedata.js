@@ -1,6 +1,6 @@
 import graphicDesign from "../images/graphicDesign.jpg";
 import webdev from "../images/webdev.jpg";
-import Appdev from "../images/appdev.jpg";
+import appdev from "../images/appdev.jpg";
 
 export const services = [
   {
@@ -13,7 +13,7 @@ export const services = [
   {
     id: 2,
     name: "Mobile App Development",
-    image: Appdev,
+    image: appdev,
     description:
       "Our mobile app development services include building cross-platform apps using React Native, Expo, and other technologies for iOS, Android, and desktop applications. Whether it's a business app, e-commerce app, or custom mobile solution, we ensure smooth user experiences and high performance.",
   },
