@@ -1,4 +1,5 @@
 import { useState } from "react";
+import LighTecHouse from "../assets/Icons/LighTecHouse.svg";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,10 +8,13 @@ export default function Header() {
     <div className="bg-transparent">
       <div className="relative flex items-center justify-between mx-2 md:mx-20 py-6">
         {/* Logo - Left */}
-        <div className="text-3xl font-bold font-sixcaps tracking-widest text-white">
-          LIghTechHouse
+        <div className="flex items-center">
+          <img
+            src={LighTecHouse}
+            alt="LightTechHouse Logo"
+            className="h-10 w-auto"
+          />
         </div>
-
         {/* Desktop Menu - Centered absolutely */}
         {/* Desktop Navigation */}
         <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 bg-mygray backdrop-blur-md rounded-full px-8 py-3 shadow-lg">

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Header from "../component/Header.jsx";
 import Footer from "../component/Footer.jsx";
-import About1 from "../assets/images/About1.jpg";
+import About from "../assets/images/about.jpg";
+import contact from "../assets/images/contact.jpg";
 import Redcard from "../assets/Icons/Redcard.svg";
 import Bluecard from "../assets/Icons/Bluecard.svg";
 import sh from "../assets/images/sh.svg";
@@ -91,10 +92,10 @@ const Home = () => {
                 ABOUT
               </h1>
               <p className="py-6 text-xl md:text-2xl font-manrope leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                voluptate sapiente perspiciatis delectus reiciendis, id soluta
-                laborum eius distinctio voluptatibus modi minus tempore deleniti
-                nemo, sit sint eos ratione repellat!
+                At LighTecHouse, we are a dedicated team of software engineers,
+                IT specialists, and creative designers committed to delivering
+                high-quality web development, mobile app development, software
+                solutions, and graphic design services.
               </p>
             </div>
 
@@ -124,7 +125,7 @@ const Home = () => {
 
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 w-[85%] max-w-[320px] sm:max-w-[380px] md:max-w-[445.5px]">
                   <img
-                    src={About1}
+                    src={About}
                     alt="About Inora Studio"
                     className="w-full h-auto object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                     style={{ clipPath: "url(#aboutimg)" }}
@@ -152,7 +153,9 @@ const Home = () => {
                   <h2 className="text-4xl md:text-5xl font-sixcaps tracking-widest mb-4">
                     {service.name}
                   </h2>
-                  <p className="text-lg md:text-xl">{service.description}</p>
+                  <p className="text-lg md:text-xl text-gray-200 ">
+                    {service.description}
+                  </p>
                 </div>
 
                 <div className="flex-1 flex justify-center relative">
@@ -316,7 +319,7 @@ const Home = () => {
             {/* Image */}
             <div className="flex-1 p-4">
               <img
-                src={About1}
+                src={contact}
                 alt="Contact Illustration"
                 className="w-full h-full max-h-[500px] object-cover rounded-md"
               />

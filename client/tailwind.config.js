@@ -13,6 +13,7 @@ export default {
       },
       backgroundImage: {
         "hero-img": "url('./assets/images/g1.png')",
+        stars: "url('./assets/images/stars.jpg')",
       },
     },
   },
