@@ -1,6 +1,6 @@
 import graphicDesign from "../images/graphicDesign.jpg";
 import webdev from "../images/webdev.jpg";
-import Appdev from "../images/Appdev.jpg";
+import Appdev from "../images/appdev.jpg";
 
 export const services = [
   {
