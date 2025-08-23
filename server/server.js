@@ -9,7 +9,7 @@ import messageRoute from "./src/routes/messageRoute.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(helmet());
@@ -19,7 +19,7 @@ app.use(cors());
 app.use("/api/messages", messageRoute);
 
 // Start server
-app.listen(PORT, (err) => {
+app.listen(PORT, "0.0.0.0", (err) => {
   if (err) {
     console.error("❌ Failed to start server:", err);
   } else {
