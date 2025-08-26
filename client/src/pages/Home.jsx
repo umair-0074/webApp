@@ -10,6 +10,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { services } from "../assets/Data/servicedata.js";
 import { projects } from "../assets/Data/portfoliodata.js";
+import API_BASE_URL from "../config.js";
 
 const Home = () => {
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ const Home = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/messages/send",
+        `${API_BASE_URL}/api/messages/send`,
         formData
       );
 

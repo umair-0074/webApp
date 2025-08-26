@@ -13,15 +13,23 @@ const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(helmet());
-app.use(cors());
-
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173", // for local dev
+      "https://lightechouse.com", // your production frontend domain
+    ],
+    methods: ["GET", "POST"],
+    credentials: true,
+  })
+);
 // Routes
 app.use("/api/messages", messageRoute);
 
 // Start server
 app.listen(PORT, "0.0.0.0", (err) => {
   if (err) {
-    console.error("❌ Failed to start server:", err);
+    console.error(" Failed to start server:", err);
   } else {
     console.log(`✅ Server is running at http://localhost:${PORT}`);
   }
