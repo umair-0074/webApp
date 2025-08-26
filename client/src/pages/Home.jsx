@@ -182,7 +182,7 @@ const Home = () => {
         {/* Portfolio Section */}
         <section className="text-white py-4 md:py-8">
           <h1 className="text-7xl md:text-9xl font-sixcaps tracking-widest mb-12">
-            Portfolio
+            Projects
           </h1>
 
           {/* Portfolio card */}

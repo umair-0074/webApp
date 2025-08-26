@@ -10,10 +10,9 @@ const Footer = () => {
             Lightechouse
           </h2>
           <p className="p-3 font-manrope">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            inventore dolorem commodi illo est voluptatibus quo eos sunt!
-            Eligendi laborum pariatur assumenda blanditiis ratione tenetur
-            tempore voluptatibus consectetur eveniet numquam.
+            ightechouse provides innovative web, mobile, and digital solutions,
+            combining creativity and technology to help businesses grow and
+            thrive in the digital age.
           </p>
           <hr className="border-white mx-3" />
           <div className="flex gap-5 p-4">
@@ -45,8 +44,8 @@ const Footer = () => {
             Information
           </h2>
           <div className="p-3 space-y-2 font-manrope">
-            <p>Eamole@gmail.com</p>
-            <p>2385923859238</p>
+            <p>info@lightechouse.com</p>
+            <p>+92 314 6024221</p>
           </div>
         </div>
       </div>
