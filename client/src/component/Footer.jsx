@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-white text-center text-sm py-4 mt-4 mx-2 md:mx-20 font-sixcaps tracking-widest ">
-        &copy; {new Date().getFullYear()} Lightechoue. All rights reserved.
+        &copy; {new Date().getFullYear()} Lightechouse. All rights reserved.
       </div>
     </footer>
   );

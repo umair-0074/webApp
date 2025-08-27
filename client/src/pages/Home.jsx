@@ -310,7 +310,7 @@ const Home = () => {
                 </div>
                 <button
                   type="submit"
-                  className="bg-mygray hover:bg-white hover:text-black text-white px-6 py-3 rounded-2xl transition"
+                  className="bg-white hover:bg-mygray hover:text-white text-black px-6 py-3 rounded-2xl transition"
                 >
                   Send Message
                 </button>
