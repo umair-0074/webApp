@@ -25,7 +25,9 @@ app.use(
 );
 // Routes
 app.use("/api/messages", messageRoute);
-
+app.get("/ping", (req, res) => {
+  res.status(200).send("pong 🏓");
+});
 // Start server
 app.listen(PORT, "0.0.0.0", (err) => {
   if (err) {
