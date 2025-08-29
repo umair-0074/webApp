@@ -48,7 +48,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=61579706891187"
+              href="https://www.facebook.com/profile.php?id=61580166471736"
               target="_blank"
               rel="noopener noreferrer"
             >
