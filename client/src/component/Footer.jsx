@@ -87,7 +87,7 @@ const Footer = () => {
           </h2>
           <div className="p-3 space-y-2 font-manrope">
             <p>info@lightechouse.com</p>
-            <p>+92 314 6024221</p>
+            <p>+92 341 4915795 </p>
           </div>
         </div>
       </div>
