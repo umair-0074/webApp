@@ -19,7 +19,7 @@ export const services = [
   },
   {
     id: 3,
-    name: "Graphics Desingn & UI/UX Design",
+    name: "Graphics Design & UI/UX Design",
     image: graphicDesign,
     description:
       "We create stunning designs for all your branding needs using Canva, Figma, and other professional tools. Our designs include social media posts, Instagram posts, business cards, book covers, presentations, posters, banners, and more — all crafted to ensure a visually appealing user experience and powerful branding.",
