@@ -19,14 +19,14 @@ export const sendMessage = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail", // or use SMTP
       auth: {
-        user: process.env.EMAIL_USER, // your email
-        pass: process.env.EMAIL_PASS, // your email password / app password
+        user: process.env.EMAIL_USER, //  email
+        pass: process.env.EMAIL_PASS, //  app password
       },
     });
 
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER, // send to yourself
+      to: [process.env.EMAIL_USER, process.env.EMAIL_USER2], // send to yourself
       subject: `📩 New Message: ${subject}`,
       text: `You received a new message:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
     });
