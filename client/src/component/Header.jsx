@@ -1,6 +1,6 @@
 import { useState } from "react";
 import LighTecHouse from "../assets/Icons/LighTecHouse.svg";
-
+import { Link } from "react-router-dom";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,11 +9,13 @@ export default function Header() {
       <div className="relative flex items-center justify-between mx-2 md:mx-20 py-6">
         {/* Logo - Left */}
         <div className="flex items-center">
-          <img
-            src={LighTecHouse}
-            alt="LightTechHouse Logo"
-            className="h-10 w-auto"
-          />
+          <Link to="/">
+            <img
+              src={LighTecHouse}
+              alt="LightTechHouse Logo"
+              className="h-10 w-auto cursor-pointer"
+            />
+          </Link>
         </div>
         {/* Desktop Menu - Centered absolutely */}
         {/* Desktop Navigation */}

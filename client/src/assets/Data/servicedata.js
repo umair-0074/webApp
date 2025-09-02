@@ -1,7 +1,7 @@
 import graphicDesign from "../images/graphicDesign.jpg";
 import webdev from "../images/webdev.jpg";
 import appdev from "../images/appdev.jpg";
-
+import uiux from "../images/uiux.jpg";
 export const services = [
   {
     id: 1,
@@ -19,9 +19,16 @@ export const services = [
   },
   {
     id: 3,
-    name: "Graphic Design & UI/UX Design",
+    name: "Graphic Designing",
     image: graphicDesign,
     description:
-      "We create stunning designs for all your branding needs using Canva, Figma, and other professional tools. Our designs include social media posts, Instagram posts, business cards, book covers, presentations, posters, banners, and more — all crafted to ensure a visually appealing user experience and powerful branding.",
+      "We provide stunning graphic designs for all your branding needs using Canva, Photoshop, Illustrator, and other professional tools. Our services include social media posts, Instagram posts, business cards, book covers, presentations, posters, banners, and more — all crafted to make your brand stand out.",
+  },
+  {
+    id: 4,
+    name: "UI/UX Design",
+    image: uiux,
+    description:
+      "We design user-friendly and visually appealing interfaces using Figma, Adobe XD, and other UI/UX design tools. From wireframes to interactive prototypes, we create intuitive designs for websites and mobile apps that ensure smooth navigation, enhanced user experience, and modern aesthetics.",
   },
 ];

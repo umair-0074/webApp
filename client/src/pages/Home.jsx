@@ -230,7 +230,7 @@ const Home = () => {
         {/* Contact Section */}
         <section id="contact" className="text-white py-4 md:py-8">
           <h1 className="font-sixcaps text-5xl md:text-7xl tracking-widest mb-12 text-center md:text-left">
-            Let's Get in Touch With Us
+            Request a Free Quote
           </h1>
 
           <div className="flex flex-col md:flex-row items-stretch gap-10">
@@ -312,7 +312,7 @@ const Home = () => {
                   type="submit"
                   className="bg-white hover:bg-mygray hover:text-white text-black px-6 py-3 rounded-2xl transition"
                 >
-                  Send Message
+                  Start Your Project
                 </button>
               </form>
             </div>
